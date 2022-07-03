@@ -58,12 +58,10 @@
       "packages/*"
     ],
     "nohoist": [
-      "**/@graphprotocol/graph-ts",
-      "**/@graphprotocol/graph-ts/**",
-      "**/hardhat",
-      "**/hardhat/**",
-      "**/hardhat-ts",
-      "**/hardhat-ts/**"
+      "**/B",
+      "**/B/**",
+      "**/C",
+      "**/C/**"
     ]
   },
   "dependencies": {},

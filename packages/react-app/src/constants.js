@@ -1,13 +1,13 @@
 // MY INFURA_ID, SWAP IN YOURS FROM https://infura.io/dashboard/ethereum
-export const INFURA_ID = "460f40a260564ac4a4f4b3fffb032dad";
+export const INFURA_ID = "d006741e80ce4b55a948fdf95883090a";
 
 // MY ETHERSCAN_ID, SWAP IN YOURS FROM https://etherscan.io/myapikey
-export const ETHERSCAN_KEY = "DNXJA8RX2Q3VZ4URQIWP7Z68CJXQZSC6AW";
+export const ETHERSCAN_KEY = "SXANEBFSTCPVUXHBVW5IC6R5DXCTNS42R7";
 
 // BLOCKNATIVE ID FOR Notify.js:
 export const BLOCKNATIVE_DAPPID = "0b58206a-f3c0-4701-a62f-73c7243e8c77";
 
-export const ALCHEMY_KEY = "oKxs-03sij-U_N0iOlrSsZFr29-IqbuF";
+export const ALCHEMY_KEY = "oKxs-03sij-U_N0iOlrSsZFr29-IqbuFI_o3ce0pZx95CWCY1GQCKwWPn6GSSTnl";
 
 const localRpcUrl = process.env.REACT_APP_CODESPACES
   ? `https://${window.location.hostname.replace("3000", "8545")}`
@@ -124,21 +124,21 @@ export const NETWORKS = {
     color: "#28a0f0",
     chainId: 421611,
     blockExplorer: "https://testnet.arbiscan.io/",
-    rpcUrl: 'https://rinkeby.arbitrum.io/rpc',
+    rpcUrl: "https://rinkeby.arbitrum.io/rpc",
   },
   arbitrum: {
     name: "arbitrum",
     color: "#28a0f0",
     chainId: 42161,
     blockExplorer: "https://arbiscan.io/",
-    rpcUrl: 'https://arb1.arbitrum.io/rpc',
+    rpcUrl: "https://arb1.arbitrum.io/rpc",
   },
   devnetArbitrum: {
     name: "devnetArbitrum",
     color: "#28a0f0",
     chainId: 421612,
     blockExplorer: "https://nitro-devnet-explorer.arbitrum.io/",
-    rpcUrl: 'https://nitro-devnet.arbitrum.io/rpc',
+    rpcUrl: "https://nitro-devnet.arbitrum.io/rpc",
   },
   localAvalanche: {
     name: "localAvalanche",

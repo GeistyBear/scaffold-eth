@@ -21,11 +21,40 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>QR Scan BFF</title>
+    <title>UPLOAD ME MAN</title>
+    <style>
+      body {
+        background-color: powderblue;
+      }
+      h1 {
+        color: blue;
+      }
+      p {
+        color: orangered;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <div class="wrapper">
+      <form action="#">
+        <input type="file" hidden />
+        <img src="C:\Users\geist\Desktop\qr_code_simple.png" alt="qr-code" />
+        <div class="content">
+          <i class="fas fa-cloud-upload"></i>
+          <p>Upload QR Code</p>
+        </div>
+      </form>
+      <div class="details">
+        <textarea spellcheck="false" disabled></textarea>
+        <div class="buttons">
+          <button class="close">Close</button>
+          <button class="copy">Copy Text</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
